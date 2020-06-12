@@ -158,7 +158,7 @@ namespace CourseManager.API.Test
 
                 var addedAuthor = authorRepository.GetAuthor(
                     Guid.Parse("d84d3d7e-3fbc-4956-84a5-5c57c2d86d7b"));
-                Assert.Equal("BEX", addedAuthor.CountryId);
+                Assert.Equal("BE", addedAuthor.CountryId);
             }
         }
 
